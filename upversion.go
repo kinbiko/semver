@@ -13,6 +13,12 @@ const (
 	semverPatch = "patch"
 )
 
+// Upversion takes a step ("major", "minor", or "patch"), and the current
+// semver version, and returns the 'next' semantic version, assuming you wish
+// to increment the given step by one.
+// Returns an error in the case that the step is not valid, or if the current
+// version is not valid semver. An initial 'v' prefix is permitted, and will be
+// returned with a 'v' prefix if given one.
 func Upversion(step, current string) (string, error) {
 	if err := validateStep(step); err != nil {
 		return "", err
