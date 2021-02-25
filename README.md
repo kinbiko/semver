@@ -1,6 +1,7 @@
 # Semver
 
 [![Build Status](https://github.com/kinbiko/semver/workflows/Go/badge.svg)](https://github.com/kinbiko/semver/actions)
+[![Coverage Status](https://coveralls.io/repos/github/kinbiko/semver/badge.svg?branch=master)](https://coveralls.io/github/kinbiko/semver?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kinbiko/semver)](https://goreportcard.com/report/github.com/kinbiko/semver)
 [![Coverage Status](https://coveralls.io/repos/github/kinbiko/semver/badge.svg)](https://coveralls.io/github/kinbiko/semver)
 [![Latest version](https://img.shields.io/github/tag/kinbiko/semver.svg?label=latest%20version&style=flat)](https://github.com/kinbiko/semver/releases)
