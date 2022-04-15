@@ -19,7 +19,7 @@ version will also begin with a `v`.
 ```go
 version, err := semver.Upversion("minor", "v3.2.6")
 if err != nil {
-    return err
+	return err
 }
 fmt.Println(version) // v3.3.0
 ```
